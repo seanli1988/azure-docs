@@ -23,7 +23,7 @@ Use `az spring-cloud stop` to stop a running Azure Spring Cloud instance:
 az spring-cloud stop --name <service instance name> --resource-group <resource group name> [--no-wait]
 ```
 
-After stopped successfully, use `az spring-cloud show` to check the power state.
+After stopped successfully, use `az spring-cloud show` to check the power state is stopped.
 ```json
 {
     "properties": {
@@ -41,7 +41,7 @@ Use `az spring-cloud start` to start a running Azure Spring Cloud instance:
 az spring-cloud start --name <service instance name> --resource-group <resource group name> [--no-wait]
 ```
 
-After started successfully, use `az spring-cloud show` to check the power state.
+After started successfully, use `az spring-cloud show` to check the power state is running.
 ```json
 {
     "properties": {
