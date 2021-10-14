@@ -6,11 +6,12 @@ Your Spring workloads may not need to run continuously, for example a service in
 # Limitations
 When using the cluster start/stop feature, the following restrictions apply:
 -The state of a stopped Azure Spring Cloud service instance is preserved for up to 3 months during preview. If your cluster is stopped for more than 3 months, the cluster state cannot be recovered. 
+-You can only view, start or delete a stopped Azure Spring Cloud service instance. To perform any update operation like create or scale an app, start your service instance first.
 
 
 > [!NOTE]
 > Stop and start is currently under preview, after which, the maximum stop time may or may not change.
-> Once an instance is stopped, the instance can still be deleted and viewed. But all update operations besides start and stop are not allowed.
+
 
 # Prerequisites
 - You already have an existing Azure Spring Cloud service instance.
