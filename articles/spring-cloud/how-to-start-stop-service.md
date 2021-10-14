@@ -28,10 +28,10 @@ After stopped successfully, use `az spring-cloud show` to check the power state.
 {
     "properties": {
         "provisioningState": "Succeeded",
-        [...]
+        ...
         "powerState": "Stopped"
     },
-    [...]
+    ...
 }
 
 ## Start a stopped instance
@@ -45,10 +45,10 @@ After started successfully, use `az spring-cloud show` to check the power state.
 {
     "properties": {
         "provisioningState": "Succeeded",
-        [...]
+        ...
         "powerState": "Running"
     },
-    [...]
+    ...
 }
 ```
 
@@ -59,10 +59,10 @@ Portal can also be used to start and stop Azure Spring Cloud instances.
 1. Go to Azure Spring Cloud service overview page
 2. Click the `Stop` button to stop a running instance.
 
-:::image type="content" source="./media/spring-cloud-stop-start-service/spring-cloud-stop-service.png" alt-text="Stop Azure Spring Cloud Service":::
+    :::image type="content" source="./media/spring-cloud-stop-start-service/spring-cloud-stop-service.png" alt-text="Stop Azure Spring Cloud Service":::
 
 ## Start a stopped instance
 1. Go to Azure Spring Cloud service overview page
 2. Click the `Start` button to stop a running instance.
 
-:::image type="content" source="./media/spring-cloud-stop-start-service/spring-cloud-start-service.png" alt-text="Start Azure Spring Cloud Service":::
+    :::image type="content" source="./media/spring-cloud-stop-start-service/spring-cloud-start-service.png" alt-text="Start Azure Spring Cloud Service":::
