@@ -7,9 +7,9 @@ When using Azure Spring Cloud, sometimes you may not need to keep it running all
 > Currently start and stop feature is still under preview, after preview, the maximum stop time may or may not change.
 > Once instance is stopped, instance can be deleted and viewed, but all update operations besides start and stop are not allowed.
 
-# Prerequisite
-- You already have an existing Azure Spring Cloud service instance
-- Or following [quick start document](https://docs.microsoft.com/en-us/azure/spring-cloud/quickstart?tabs=Azure-CLI&pivots=programming-language-java) to create one
+# Prerequisites
+- You already have an existing Azure Spring Cloud service instance.
+- Or following [quick start document](https://docs.microsoft.com/en-us/azure/spring-cloud/quickstart?tabs=Azure-CLI&pivots=programming-language-java) to create one.
 
 # Start and stop with CLI
 Switch to the subscription your Azure Spring Cloud service instance belongs to.
@@ -33,6 +33,7 @@ After stopped successfully, use `az spring-cloud show` to check the power state.
     },
     ...
 }
+```
 
 ## Start a stopped instance
 Use `az spring-cloud start` to start a running Azure Spring Cloud instance:
